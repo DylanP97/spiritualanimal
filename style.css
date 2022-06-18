@@ -1,0 +1,41 @@
+button {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+button > img {
+width: 300px;
+height: 150px;
+object-fit: cover;
+}
+
+h2 {
+font-size: 16px;
+}
+
+#Q1 {
+display: block;
+}
+
+
+#Q2 {
+display: none;
+}
+
+#Q3 {
+display: none;
+}
+
+#Q4 {
+display: none;
+}
+
+
+#finaldiv {
+display: none;
+}
