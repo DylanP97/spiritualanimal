@@ -1,51 +1,65 @@
 <html>
 <head>
 <title>Spiritual Animal</title>
-
-<meta charset="utf-8">
-
 <link href="style.css" rel="stylesheet" />
-
 <meta name="viewport" content="width=device-width, initial-scale=1">    
-    
+<meta charset="utf-8">
+</head>    
 <body>
-  <h1>Quelle est votre animal spirituel?</h1>
+  <h1>Quel est votre animal spirituel?</h1>
+  <img src="images/backgroundimg.png"></img>
+
   
   <div id="Q1">
+  <h2>Question n°1 : Dans vos activités quotidiennes et dans vos réalisations, vous avez plus tendance à...</h2>
+  <button id="alone"><img id="alone" src="https://the1a.org/wp-content/uploads/sites/4/2021/04/21.4.13-Alone.jpg"><br>Être seul</button>
+  <button id="group"><img id="group" src="https://ecampusontario.pressbooks.pub/app/uploads/sites/115/2018/04/image4-4-1024x682.jpg"><br>Être en groupe</button>
+  <p id="question1result"></p>     
+  </div>
+  
+  <div id="Q2">  
+  <h2> Vous êtes souvent en groupe? Êtes-vous plutôt un leader ou un suiveur?</h2>
+  <button id="leader"><img id="leader" src="https://cdn-s-www.republicain-lorrain.fr/images/6F57C4A3-FFBF-4CF8-8228-4D8675B88629/NW_raw/pascal-dupraz-a-totalement-relance-l-as-saint-etienne-dans-la-course-au-maintien-photo-maxppp-jean-marc-loos-1646397195.jpg"><br>Je suis celui qui prends les initiatives</button>
+  <button id="follower"><img id="follower" src="https://thumbs.dreamstime.com/b/climate-strike-stockholm-stockholm-sweden-october-swedish-climate-activists-inspired-greta-thunberg-protest-stockholm-232894943.jpg"><br>Je suis et je fais ce que les autres font</button>
+  <p id="question2result"></p>     
+  </div> 
+    
+  <div id="Q3">
+  <h2> Quelle est votre couleur de cheveux ? </h2>
+  <button id="blond"><img id="blond" src="https://www.thesalonblond.com/wp-content/uploads/2019/04/salon-blond-hair-salon-dunedin-16.jpg"><br>Blonds, Clairs</button>
+  <button id="brown"><img id="group" src="https://i2.wp.com/www.hadviser.com/wp-content/uploads/2020/04/3-hairstyle-with-caramel-highlights-B6vNM4Qg7oc.jpg?resize=1080%2C1350&ssl=1"><br>Marrons/Noirs</button>
+  <button id="redhead"><img id="redhead" src="https://gingerparrot.co.uk/wp/wp-content/uploads/2017/10/redhead-with-freckles.png"><br>Roux, Rouge</button>
+  <button id="colorful"><img id="colorful" src="https://therighthairstyles.com/wp-content/uploads/2015/10/rainbow-hair-color-featured.jpg"><br>Une couleur fantaisiste!</button>
+  <button id="bald"><img id="bald" src="https://media.gq-magazine.co.uk/photos/605e0748a01cc0d39931f969/16:9/w_2560%2Cc_limit/GettyImages-1187900703.jpg"><br>Euh... je suis chauve!</button>
+  <p id="question3result"></p>         
+  </div> 
+    
+  <div id="Q4">
+  <h2> Pour vous nager dans l'eau c'est...</h2>
+  <button id="fish"><img id="fish" src="https://www.surfertoday.com/images/stories/surfswimming2.jpg"><br>Pour moi c'est une seconde nature!</button>
+  <button id="normal"><img id="fish" src="https://images.pexels.com/photos/134991/pexels-photo-134991.jpeg"><br>C'est bien de temps à autre.</button>
+  <button id="noswim"><img id="fish" src="https://www.enjoy-swimming.com/wp-content/uploads/fear-of-water.jpg.webp"><br>J'ai peur de l'eau ou je ne sais pas nager!</button>
+  <p id="question4result"></p>     
+  </div> 
+  
+  <div id="Q5">
   <h2> Où aimeriez-vous être... </h2>
   <button id="jungle"><img src="https://www.telegraph.co.uk/content/dam/Travel/2018/September/El-Yunque-morning-mist-iStock-535499464.jpg"><br>Dans une jungle</button>
-  <button id="fish"><img src="https://www.uliege.be/upload/docs/image/jpeg/2018-01/bloca-cp-oxygeneocean.jpg"><br>Dans l'océan</button>
   <button id="bird"><img src="https://eus-www.sway-cdn.com/s/lS9lnvgYelIJHUrK/images/Q-RqK_GAjZjzbG?quality=960&allowAnimation=false"><br>Dans les airs</button>
   <button id="tropical"><img src="https://www.purevacations.com/wp-content/uploads/2020/02/Top-10-Tropical-Vacations-1024x683.jpg"><br>Dans un lieu tropical</button>
   <button id="countryside"><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/moving-to-countryside-advice-1610529118.jpg"><br>À la campagne</button>
   <button id="snow"><img src="https://meteofrance.com/sites/meteofrance.com/files/styles/730_322/public/images/articles/GettyImages-1066508460.jpg?itok=OSjeYwtC"><br>Dans un lieu enneigé</button>
   <button id="mountain"><img src="https://images.pexels.com/photos/210243/pexels-photo-210243.jpeg?cs=srgb&dl=pexels-pixabay-210243.jpg&fm=jpg"><br>À la montagne</button>
-  <p id="questionAresult"></p>  
-  </div>
-  
-  <div id="Q2">  
-  <h2> où aimez vous partir en vacances ? </h2>
-  <button id="placetropical">aux tropiques</button>
-  <button id="placefarm">à la campagne</button>
-  <button id="placesnow">à la neige</button>
-  <p id="questionBresult"></p>     
+  <p id="question5result"></p>  
   </div> 
-    
-  <div id="Q3">
-  <h2> quand vous arrivez dans un groupe vous êtes... </h2>
-  <button id="groupleader">...le leader</button>
-  <button id="groupnormal">...un bon élément</button>
-  <button id="groupinvisible">...effacé invisible</button>
-  <p id="questionCresult"></p>         
+
+  <div id="Q6">
+  <h2> Je suis la Question 6 </h2>
+  <button id="yquestion6">oui</button>
+  <button id="nquestion6">non</button>
+  <p id="question6result"></p>     
   </div> 
-    
-  <div id="Q4">
-  <h2> adorez-vous nagez? </h2>
-  <button id="swimyes">oui je suis comme un poisson dans l'eau</button>
-  <button id="swimno">pas forcement</button>
-  <p id="questionDresult"></p>     
-  </div> 
-  
+
   <div id="finaldiv">
   <p> appuie sur le bouton pour confirmer les réponses</p>
   <button id="validate">Valider</button>

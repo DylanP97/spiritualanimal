@@ -1,3 +1,7 @@
+body {
+  text-align: center;
+}
+
 button {
   background-color: black;
   color: white;
@@ -31,10 +35,19 @@ display: none;
 display: none;
 }
 
+
 #Q4 {
 display: none;
 }
 
+#Q5 {
+display: none;
+}
+
+#Q6 {
+display: none;
+}
+  
 
 #finaldiv {
 display: none;
