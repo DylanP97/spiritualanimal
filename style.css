@@ -1,14 +1,19 @@
 body {
   text-align: center;
+  margin: 0;
+  font-family: 'Arima', cursive;
 }
 
 button {
   background-color: black;
   color: white;
-  border-radius: 20px;
+  border-radius: 35px;
   margin: 5px;
-  padding: 10px;
+  padding: 15px;
   cursor: pointer;
+  font-family: 'Arima', cursive;
+  font-size: 30px;
+  border: white 0.2em inset;
 }
 
 
@@ -19,33 +24,95 @@ object-fit: cover;
 }
 
 h2 {
-font-size: 16px;
+font-size: 22px;
 }
 
+
+#presentation {
+  background: url("images/tiger.jpg") no-repeat center; 
+  background-size: 100% cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#presentation h1{
+  color: white;
+}
+
+
+#launch {
+  width: 450px;
+  padding: 15px;
+  border-radius: 35px;
+  background-color: white;
+  color: black;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+
 #Q1 {
-display: block;
+display: none;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+flex-direction: column;
+background: no-repeat center;
 }
 
 
 #Q2 {
 display: none;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+flex-direction: column;
 }
+
 
 #Q3 {
 display: none;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+flex-direction: column;
 }
 
 
 #Q4 {
 display: none;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+flex-direction: column;
 }
+
 
 #Q5 {
 display: none;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+flex-direction: column;
 }
+
 
 #Q6 {
 display: none;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+flex-direction: column;
 }
   
 

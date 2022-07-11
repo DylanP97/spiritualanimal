@@ -1,6 +1,8 @@
 
 //----------
 
+const LaunchQuiz = document.getElementById("launch")
+
 const question1PossibleChoices = document.querySelectorAll("#alone, #group")
 let question1Choice
 const question2PossibleChoices = document.querySelectorAll("#leader, #follower")
@@ -13,9 +15,14 @@ const question5PossibleChoices = document.querySelectorAll("#jungle, #bird, #tro
 let question5Choice
 
 
+LaunchQuiz.addEventListener('click', (e) => {
+  document.getElementById('Q1').style.display = "flex"
+  document.getElementById('presentation').style.display = "none"
+})
+
 question1PossibleChoices.forEach(question1PossibleChoices => question1PossibleChoices.addEventListener('click', (e) => {
-    question1Choice = e.target.id
-    Q1Function()
+  question1Choice = e.target.id
+  Q1Function()
 }))
 
 question2PossibleChoices.forEach(question2PossibleChoices => question2PossibleChoices.addEventListener('click', (e) => {
@@ -41,14 +48,17 @@ question5PossibleChoices.forEach(question5PossibleChoices => question5PossibleCh
 
 //----------
 
+
+
+
                                                       
 function Q1Function () {
   
   if (question1Choice == "alone")
-  {document.getElementById('Q3').style.display = "block"
+  {document.getElementById('Q3').style.display = "flex"
   document.getElementById('Q1').style.display = "none"}
   else if (question1Choice == "group")
-  {document.getElementById('Q2').style.display = "block"
+  {document.getElementById('Q2').style.display = "flex"
   document.getElementById('Q1').style.display = "none"}
   else
   {document.getElementById('question1result').textContent = "please answer question 1"}
@@ -58,7 +68,7 @@ function Q1Function () {
 function Q2Function () {
 
   if (question2Choice == "leader" || "follower")
-  {document.getElementById('Q3').style.display = "block"
+  {document.getElementById('Q3').style.display = "flex"
   document.getElementById('Q2').style.display = "none"}
   else
   {document.getElementById('question2result').textContent = "please answer question 2"}
@@ -68,7 +78,7 @@ function Q2Function () {
 function Q3Function () {
 
   if (question3Choice == "blond" || "brown" || "redhead" || "colorful" || "bald" )
-  {document.getElementById('Q4').style.display = "block"
+  {document.getElementById('Q4').style.display = "flex"
   document.getElementById('Q3').style.display = "none"}
   else
   {document.getElementById('question3result').textContent = "please answer question 3"}
@@ -78,7 +88,7 @@ function Q3Function () {
 function Q4Function () {
 
   if (question4Choice == "fish" || "normal" || "noswim" )
-  {document.getElementById('Q5').style.display = "block"
+  {document.getElementById('Q5').style.display = "flex"
   document.getElementById('Q4').style.display = "none"}
   else
   {document.getElementById('question4result').textContent = "please answer question 4"}
@@ -88,7 +98,7 @@ function Q4Function () {
 function Q5Function () {
 
   if (question4Choice == "fish" || "normal" || "noswim" )
-  {document.getElementById('Q6').style.display = "block"
+  {document.getElementById('Q6').style.display = "flex"
   document.getElementById('Q5').style.display = "none"}
   else
   {document.getElementById('question4result').textContent = "please answer question 5"}
