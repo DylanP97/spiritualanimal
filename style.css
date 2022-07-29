@@ -13,7 +13,7 @@ button {
   cursor: pointer;
   font-family: 'Arima', cursive;
   font-size: 30px;
-  border: white 0.2em inset;
+  border: aquamarine 0.2em inset;
 }
 
 
@@ -116,6 +116,29 @@ flex-direction: column;
 }
   
 
+#virus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #finaldiv {
 display: none;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+flex-direction: column;
+}
+
+
+#finaldiv > img{
+  width: 1000px;
+  height: 600px;
+  object-fit: cover;
+
+}
+
+#result {
+  color: black;
 }
