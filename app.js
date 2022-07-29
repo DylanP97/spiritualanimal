@@ -125,7 +125,7 @@ function result() {
   ) {
     finaldiv.innerHTML = `<h2>You are a Cat</h2><br>
     <p>The cat totem meaning is of intelligence, protection, independence, agility, and curiosity. People that have it in their possession will feel the drive to enlightenment. They will have magnetism, good vibes that will draw others around them.</p><br>
-    <img src="https://i.pinimg.com/736x/08/f1/ce/08f1cea5848bddf7401e666193d5185d.jpg"></img>`;
+    <img src="https://pbs.twimg.com/media/E7uaCivXoAsBKSL.jpg"></img>`;
   }
 
   else if (
@@ -205,7 +205,7 @@ function result() {
   ) {
     finaldiv.innerHTML = `<h2>You are a Bat</h2><br>
     <p>A bat as a spirit animal indicates a person who is aware of his/her own states of consciousness, inner awareness. That is why; such a person is capable of understanding the darkness of night, death, and even the world of dreams. A person with the bat as a spirit animal is the Guardian of the Night.</p><br>
-    <img src="https://worldbirds.com/wp-content/uploads/2020/07/Depositphotos_286071324_s-2019.jpg"></img>`;
+    <img src="https://img.artpal.com/76558/2-17-4-21-14-51-6m.jpg"></img>`;
   }
 
   else if (
@@ -250,7 +250,7 @@ function result() {
   ) {
     finaldiv.innerHTML = `<h2>You are a Lion</h2><br>
     <p>Lion symbolism and meaning include majesty, courage, strength, protection, family, wisdom, and other admirable traits. People with a lion as their spirit animal can easily overcome stress by bringing themselves into alignment with the lion's energy of strength and pride of self worth. If a lion spirit animal turns up in your life, you need to step up and take the initiative.</p><br>
-    <img src="https://cdn-ajpcj.nitrocdn.com/GXTAmEvbXwrCvAHWalvkWjxRhmmofTnC/assets/static/optimized/rev-be6a927/wp-content/uploads/2020/09/lion-symbolism-meanings.jpg"></img>`;
+    <img src="https://images.pling.com/img/00/00/62/69/92/1699610/king-lion-fantasy-art1.jpg"></img>`;
   }
 
   else if (
@@ -261,7 +261,7 @@ function result() {
   ) {
     finaldiv.innerHTML = `<h2>You are a Salmon</h2><br>
     <p>The Native Salmon Symbol symbolizes abundance, fertility, prosperity and renewal. For thousands of years, Salmon have been the primary food source for Northwest Coast Native Americans and are highly respected.</p><br>
-    <img src="https://numeralpaint.com/wp-content/uploads/2021/03/Salmon-Fish-paint-by-number.jpg"></img>`;
+    <img src="https://m.media-amazon.com/images/I/71GiGanC-aL._SL1174_.jpg"></img>`;
   }
 
   else if (
@@ -283,7 +283,7 @@ function result() {
   ) {
     finaldiv.innerHTML = `<h2>You are a Butterfly</h2><br>
     <p>Butterflies are beautiful and have mystery, symbolism, and meaning and are a metaphor representing spiritual rebirth, transformation, change, hope, and life. The magnificent, yet short life of the butterfly closely mirrors the process of spiritual transformation and serves to remind us that life is short.</p><br>
-    <img src="https://www.millersguild.com/wp-content/uploads/2022/01/Spiritual-Meaning-of-Butterflies.jpg"></img>`;
+    <img src="https://wallpaperset.com/w/full/8/e/b/21919.jpg"></img>`;
   }
 
   else if (

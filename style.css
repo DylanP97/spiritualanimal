@@ -1,11 +1,24 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+:root {
+  --hsl: 228, 50%, 50%;
+  --eye-tiger: 189,100%,85%;
+  --eye-tiger2: 195,55%,33%;
+}
+
 body {
   text-align: center;
   margin: 0;
   font-family: 'Arima', cursive;
 }
 
+
+
 button {
-  background-color: black;
+  background-color: hsl(var(--hsl));
   color: white;
   border-radius: 35px;
   margin: 5px;
@@ -13,15 +26,12 @@ button {
   cursor: pointer;
   font-family: 'Arima', cursive;
   font-size: 30px;
-  border: aquamarine 0.2em inset;
+  border: white 0.2em inset;
 }
 
 
-button > img {
-width: 50%;
-height: 30%;
-object-fit: cover;
-}
+
+
 
 h2 {
 font-size: 22px;
@@ -48,11 +58,42 @@ font-size: 22px;
   width: 450px;
   padding: 15px;
   border-radius: 35px;
-  background-color: white;
-  color: black;
   font-size: 32px;
   font-weight: 500;
+  background-color: hsl(var(--eye-tiger));
+  color: hsl(var(--eye-tiger2));
+  border: 5px solid hsl(var(--eye-tiger2));
+  transform: skewX(-0deg) scale(1)
 }
+
+#launch:hover {
+  animation: roar 0.4s ease-out;
+}
+
+
+@keyframes roar {
+  0% {
+    transform: skewX(-10deg);
+  }
+
+  25% {
+      transform: skewX(10deg);
+  }
+
+  50% {
+      transform: skewX(-10deg);
+  }
+
+  75% {
+      transform: skewX(10deg);
+  }
+
+  100% {
+      transform: skewX(-10deg);
+  }
+}
+
+
 
 
 
@@ -104,17 +145,11 @@ display: none;
 justify-content: center;
 align-items: center;
 width: 100%;
-height: 100%;
 flex-direction: column;
 }
 
-
-#finaldiv {
-  padding: 0% 0%;
-}
-
 #finaldiv p {
-  max-width: 90%;
+  max-width: 1000px;
 }
 
 #finaldiv > img{
@@ -135,7 +170,7 @@ h2 {
   -webkit-animation: 1.5s highlight 0s 1 normal forwards;
   animation: 1.5s highlight 0s 1 normal forwards;
   background-color: none;
-  background: linear-gradient(90deg, #007175 50%, rgba(255, 255, 255, 0) 50%);
+  background: linear-gradient(90deg, hsl(var(--hsl)) 50%, rgba(255, 255, 255, 0) 50%);
   background-size: 200% 100%;
   background-position: 100% 0;
 }
