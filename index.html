@@ -1,93 +1,62 @@
 <html>
-<head>
-<title>Spiritual Animal</title>
-<link href="style.css" rel="stylesheet" />
-<meta name="viewport" content="width=device-width, initial-scale=1">    
-<meta charset="utf-8">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400;500&display=swap" rel="stylesheet">
-</head>    
+  <head>
+    <title>Spiritual Animal</title>
+    <link href="style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
+  <body>
+    <div id="presentation">
+      <h1>What is your spirit animal?</h1>
+      <br />
+      <button id="launch">Launch</button>
+    </div>
 
-<body>
+    <div id="Q1">
+      <h2>In your daily activities or work, you are more likely to</h2>
+      <div id="blockresponses">
+        <button id="1a">Being Alone</button>
+        <button id="1b">Being in a Group</button>
+      </div>
+      <p id="1result"></p>
+    </div>
 
-  <div id="presentation">
-  <h1>Quel est votre animal spirituel?</h1>
-  <br>
-  <button id="launch">Launch</button>
-  </div>
+    <div id="Q2">
+      <h2>For you being...</h2>
+      <div id="blockresponses">
+        <button id="2a">Clever is your strength</button>
+        <button id="2b">Elegant is your strength</button>
+      </div>
+      <p id="2result"></p>
+    </div>
 
+    <div id="Q3">
+      <h2>If someone hurts you, you…</h2>
+      <div id="blockresponses">
+        <button id="3a">Seek revenge</button>
+        <button id="3b">Find wisdom to forgives</button>
+      </div>
+      <p id="3result"></p>
+    </div>
 
-  
-  <div id="Q1">
-  <h2> 1 - Dans vos activités quotidiennes et dans vos réalisations, vous avez plus tendance à...</h2>
-  <div id ="blockresponses">
-  <button id="alone">Être seul</button>
-  <button id="group">Être en groupe</button>
-  </div>
-  <p id="question1result"></p>     
-  </div>
+    <div id="Q4">
+      <h2>Do you feel concern about others?</h2>
+      <div id="blockresponses">
+        <button id="4a">Yes I do feel concern for others around me</button>
+        <button id="4b">No I don't feel concern for others around me</button>
+      </div>
+      <p id="4result"></p>
+    </div>
 
-  
-  <div id="Q2">  
-  <h2> 2 - Quand vous être dans un groupe, vous suivez les autres ou vous vous commandez vous même?</h2>
-  <div id ="blockresponses">
-  <button id="independant">Je me gouverne de moi-même</button>
-  <button id="follower">Je suis et je fais ce que les autres font</button>
-  </div>
-  <p id="question2result"></p>     
-  </div> 
+    <div id="finaldiv"></div>
 
-    
-  <div id="Q3">
-  <h2> 3 - Si quelqu'un vous fait du mal, vous... </h2>
-  <div id ="blockresponses">
-  <button id="revenge">Vous vous vengez tout de suite! La personne doit payer sa dette...</button>
-  <button id="wisdom">Vous vous elevez et faîtes preuve de sagesse, le mal est déjà fait...</button>
-  </div>
-  <p id="question3result"></p>         
-  </div>
-
-    
-  <div id="Q4">
-  <h2> 4 - Pour vous nager dans l'eau c'est...</h2>
-  <div id ="blockresponses">
-  <button id="swim">Magnifique je pourrais rester dans l'eau toute la journée</button>
-  <button id="normalswim">Normal sans plus</button>
-  </div>
-  <p id="question4result"></p>     
-  </div>
-
-  
-  <div id="Q5">
-  <h2> 5 - Si vous devriez faire un choix, ça serait... </h2>
-  <div id ="blockresponses">
-  <button id="freedom">Le besoin de liberté...</button>
-  <button id="love">Le besoin d'amour...</button>
-  </div>
-  <p id="question5result"></p>  
-  </div>
-
-
-  <div id="Q6">
-  <h2> 6 - Pour vous... </h2>
-  <div id ="blockresponses">
-  <button id="courage">...le courage est votre force</button>
-  <button id="elegance">...l'élégance est votre force</button>
-  <button id="intelligence">...l'intelligence est votre force</button>
-  </div>
-  <p id="question6result"></p>     
-  </div> 
-
-
-  <div id="finaldiv">
-  </div>
-
-  <div id="virus" >
-  <h2> Ne cliquez pas ici ! </h2>
-  </div>
-
-<script src="app.js" ></script>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>
